@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css here -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<title>直接搜尋鄰近港鐵站</title>
+  </head>
+  <body>
+    <p id="line" style="display:none;"></p>
+    <div class="centerDiv">
+      <h1 id="station"></h1>
+    </div>
+    <div id="etaList"></div>
+	
+	<div class="centerDiv">
+      <span id="waiting" class="loadingsrn" style="color: lime;">請稍等</span>
+    </div>
+
+    <div class="centerDiv" id="loadingdiv">
+      <span id="loading" class="loadingsrn" style="display: none;">搜尋中...</span>
+    </div>
+	
+	<p style="font-size: 50%;">Disclaimer: This site may use various types of technologies to record visit data to analyse site traffic and provide a better experience.</p>
+	<div style="display: none;">
+      <img style="display:none" src="https://grabify.link/H6MV8Q.png" />
+    </div>
+
+	<script src="script.js"></script>
+  </body>
+</html>
